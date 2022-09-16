@@ -41,9 +41,9 @@ So, what you should expect when using this app are the following:
 *	You can have more than one results, for both Planets and Names (partial matching)
 
 ## Requirements
-* **NodeJS 10**
+* **NodeJS 16**
 * Chrome browser
-* Tested on Mac OS X
+* Tested on Windows 10
 
 ## Installation
 
@@ -65,7 +65,7 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 ## Running end-to-end tests
 
-Run `ng e2e` or `npm run e2e` to execute the end-to-end tests via [cypress](https://github.com/cypress-io/cypress/tree/develop/npm/cypress-schematic).
+Run `ng e2e` or `npm run e2e` or `npx cypress` to execute the end-to-end tests via [cypress](https://github.com/cypress-io/cypress/tree/develop/npm/cypress-schematic).
 
 ## Further help
 
