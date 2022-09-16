@@ -5,7 +5,7 @@
 
         <div class="col-auto">
           <div class="form-check mb-2">
-            <input formControlName="searchType" class="form-check-input" type="radio" id="people" value="people">
+            <input formControlName="searchType" class="form-check-input" type="radio" id="people" value="people" data-cy="rdbPeople">
             <label class="form-check-label" for="people">
               People
             </label>
@@ -14,7 +14,7 @@
 
         <div class="col-auto">
           <div class="form-check mb-2">
-            <input formControlName="searchType" class="form-check-input" type="radio" id="planets" value="planets">
+            <input formControlName="searchType" class="form-check-input" type="radio" id="planets" value="planets" data-cy="rdbPlanets">
             <label class="form-check-label" for="planets">
               Planets
             </label>
@@ -23,11 +23,11 @@
 
         <div class="col-auto">
           <label class="sr-only" for="query">Query</label>
-          <input formControlName="query" type="search" class="form-control mb-2" id="query">
+          <input formControlName="query" type="search" class="form-control mb-2" id="query" data-cy="txtQuery">
         </div>
 
         <div class="col-auto">
-          <button type="submit" class="btn btn-primary mb-2">Search</button>
+          <button type="submit" class="btn btn-primary mb-2" data-cy="btnSearch">Search</button>
         </div>
       </div>
     </form>
