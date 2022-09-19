@@ -2,3 +2,4 @@ node_modules
 .angular
 cypress/screenshots/*
 cypress/videos
+cypress/reports/*

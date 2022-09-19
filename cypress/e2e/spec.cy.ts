@@ -52,7 +52,7 @@ describe('Search feature tests', () => {
     homePage.getNullResult().should('have.text', 'Not found.');
   })
 
-  it('Should remove previous search results', () => {
+  it('Should clear previous search results', () => {
     homePage.selectPeople();
     homePage.searchFor('Lars');
     homePage.getPeopleResult().its('length').should('be.gte', 1);
