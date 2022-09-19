@@ -6,7 +6,7 @@ The assessment information is located in the file: [ASSESSMENT.MD](./ASSESSMENT.
 
 # NodeJS version
 
-Currently the project works with **NODEJS 10 LTS** environment. Please make sure you MAC/PC has a 10.x node version installed. (https://nodejs.org/dist/latest-v10.x/). You can also try NODEJS 12 LTS as an experiment but support has not been verified.
+Currently the project works with **NODEJS 16 LTS** environment. Please make sure you MAC/PC has a 16.x node version installed. (https://nodejs.org/dist/latest-v16.x/).
 
 Run ```node -v``` in a terminal to see which version of NodeJS you have
 
