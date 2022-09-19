@@ -1,24 +1,29 @@
 # Assesment Solution
 
 ## Update to Node 16
-_"We have left the angular + cypress builder configuration empty in angular.json file, we'll leave it to you to update it"_
-This project contains a hard dependency on cypress schematics, which no longer support Angular <= 13, so the project has been updated for usage with Node 16 and Angular 14 (latest versions as of now). TSLint is also deprecated so it has been removed; linting is now covered with ESLint.
+_"We have left the angular + cypress builder configuration empty in angular.json file, we'll leave it to you to update it"_ \
+This project contains a hard dependency on cypress schematics, which no longer support Angular < 13, so the project has been updated for usage with Node 16 and Angular 14 (latest versions as of now). TSLint is also deprecated so it has been removed; linting is now covered with ESLint.
 
 ## Karma config update
 Original Karma config did not take into account already running instances or launches. Although the assesment does not require a unit testing framework or unit tests at all, Karma config has been updated for the sake of compliance patterns.
 
 ## Cypress e2e
-Automated test scenarios for the UI are handled by Cypress and written in mocha style. An .html report is automatically generated inside the [cypress/reports](./cypress/reports/) folder after each run. Failed test cases will have a screenshot attached.
+Automated test scenarios for the UI are handled by Cypress and written in mocha style. An .html report is automatically generated inside the [cypress/reports](./cypress/reports/) folder after each run. Failed test cases will have a screenshot attached.\
 Run the full spec by using the command ```ng e2e```. Add the parameter ```--browser``` to specify a target browser. Supported browsers are **chrome**, **firefox** and **edge**. Note that in order to execute the test scenarios in any of these browsers, you'd need to have them installed on your system.
 
 ## Bug report
-A bug report has been filed to the project's mock board. Since the access to the board cannot be freely provided, a screenshot of the bug report has been attached to the [cypress/bug](./cypress/bug/) folder.
+A bug report has been filed to the project's mock board. Since access to the Pivotal Tracker board cannot be freely provided, a screenshot of the bug report has been attached to the [cypress/bug](./cypress/bug/) folder.
+
+<br>
 
 ![bug report](./cypress/bug/bug_report.png)
 
+</br>
+
 --------------------
 
-## Test scenarios description
+## Test scenarios
+The following test scenarios have been automated for this project:
 
 ### TC01: Should contain header Star Wars
 1. Given a user navigates to the home page
